@@ -1,1 +1,38 @@
-Hello World
+{{form-field
+  label='First Name'
+  model=this.userForm.firstName
+  onInput=(action 'handleInput' 'firstName')
+}}
+
+{{form-field
+  label='Middle Name'
+  model=this.userForm.middleName
+  onInput=(action 'handleInput' 'middleName')
+}}
+
+{{form-field
+  label='Last Name'
+  model=this.userForm.lastName
+  onInput=(action 'handleInput' 'lastName')
+}}
+
+{{form-field
+  label='Age'
+  model=this.userForm.age
+  onInput=(action 'handleInput' 'age')
+}}
+
+{{form-field
+  label='Primary Email'
+  model=this.userForm.primaryEmail
+  onInput=(action 'handleInput' 'primaryEmail')
+}}
+
+{{form-field
+  label='Secondary Email'
+  model=this.userForm.secondaryEmail
+  onInput=(action 'handleInput' 'secondaryEmail')
+  onChange=(action 'handleChange' 'secondaryEmail')
+}}
+
+<button type='button' onclick={{action 'submit'}}>Submit</button>
