@@ -15,7 +15,7 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "@olo/ember-principled-forms": "^0.1.1",
+    "@olo/ember-principled-forms": "^0.2.2",
     "@types/ember": "^2.8.22",
     "@types/ember-data": "^2.14.17",
     "@types/ember-qunit": "^3.0.2",
